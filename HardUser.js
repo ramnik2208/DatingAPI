@@ -2,8 +2,8 @@
 const User = require('./Model/user')
 
 let userArray = [] 
-let User1 = new User('Ramnik', '', '217', '12');
-let User2 = new User('Emil', 'Emilianos', '1000', '123')
+let User1 = new User('Ramnik', 'Singh', '26', '15');
+let User2 = new User('Dilara', 'Ince', '19', '14')
 
 userArray = [User1, User2]
 
