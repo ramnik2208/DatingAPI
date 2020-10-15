@@ -9,6 +9,8 @@ const port = 3000
 const userController = require('./Controller/userController')
 const protectedController = require('./Controller/Protectedcontroller')
 const loginController = require('./Controller/loginController')
+const matchController = require('./Controller/matchController')
+const interestController = require('/Controller/interest')
 
 //henter middleware
 const ensureToken = require('./Middleware/ensureToken')
@@ -17,8 +19,12 @@ server.get('/', userController)
 
 server.get('/protected', ensureToken,  protectedController)
 
+server.get('/match', matchController)
+
+server.get('/interest', )
 
 server.post('/login', loginController)
+
 
 //server aktiveres
 server.listen(port, () => {
