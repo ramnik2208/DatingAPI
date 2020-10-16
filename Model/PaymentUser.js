@@ -1,7 +1,7 @@
 class PaymentUser {
     constructor(user) {
         this.user = user;
-        paid = true;
+        this.paid = true;
     }
 }
 
