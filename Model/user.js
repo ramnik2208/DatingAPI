@@ -1,4 +1,3 @@
-//definerer model-klasse for User
 class User {
     constructor(fname, lname, age, password, creditcard, image, interest) {
         this.fname = fname;
@@ -12,5 +11,4 @@ class User {
     }
 }
 
-//eksporter user
 module.exports = User;

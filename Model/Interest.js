@@ -1,4 +1,4 @@
-class Insterest {
+class Interest {
     constructor(hobby, age, country) {
         this.hobby = hobby;
         this.age = age;
@@ -6,4 +6,4 @@ class Insterest {
     }
 }
 
-module.exports = Insterest;
+module.exports = Interest;

@@ -1,7 +1,7 @@
-//henter User model
 const Match = require('./Model/Match')
 const users = require('./HardUser')
 
 let matchOne = new Match(users[0], users[1])
-
-module.exports = matchOne;
+let matchArray = []
+matchArray.push(matchOne)
+module.exports = matchArray;

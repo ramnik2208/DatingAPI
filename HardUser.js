@@ -1,4 +1,3 @@
-//henter User model
 const User = require('./Model/user');
 const CreditCard = require('./Model/CreditCard');
 const Image = require('./Model/Image');
